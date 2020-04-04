@@ -25,7 +25,7 @@
  *  - Greg Kroah-Hartman - usb-skeleton driver
  *  - XBOX Linux project - extra USB id's
  *  - Pekka Pöyry (quantus) - Xbox One controller reverse engineering
- *  - Taylor Genn (Multimegamander) - PDP id's
+ *  - Taylor Genn (Multimegamander) - PDP USB id's
  *
  * TODO:
  *  - fine tune axes (especially trigger axes)
