@@ -25,6 +25,7 @@
  *  - Greg Kroah-Hartman - usb-skeleton driver
  *  - XBOX Linux project - extra USB id's
  *  - Pekka Pöyry (quantus) - Xbox One controller reverse engineering
+ *  - Taylor Genn (Multimegamander) - Adding PDP id's
  *
  * TODO:
  *  - fine tune axes (especially trigger axes)
@@ -218,12 +219,21 @@ static const struct xpad_device {
 	{ 0x0e6f, 0x02ab, "PDP Controller for Xbox One", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a4, "PDP Wired Controller for Xbox One - Stealth Series", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a6, "PDP Wired Controller for Xbox One - Camo Series", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Red", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Orange", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Green", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a0, "PDP Wired Controller for Xbox One - Blue", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02cb, "PDP Wired Controller for Xbox One - Specter Violet", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02bd, "PDP Wired Controller for Xbox One - Royal Purple", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Black", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - White", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0301, "Logic3 Controller", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x0346, "Rock Candy Gamepad for Xbox One 2016", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0401, "Logic3 Controller", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x0413, "Afterglow AX.1 Gamepad for Xbox 360", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x0501, "PDP Xbox 360 Controller", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0xf900, "PDP Afterglow AX.1", 0, XTYPE_XBOX360 },
+	{ 0x0e6f, 0x0185, "Wired Fight Pad Pro - Mario", 0, XTYPE_XBOXONE },
 	{ 0x0e8f, 0x0201, "SmartJoy Frag Xpad/PS2 adaptor", 0, XTYPE_XBOX },
 	{ 0x0e8f, 0x3008, "Generic xbox control (dealextreme)", 0, XTYPE_XBOX },
 	{ 0x0f0d, 0x000a, "Hori Co. DOA4 FightStick", 0, XTYPE_XBOX360 },
