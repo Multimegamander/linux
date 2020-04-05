@@ -25,7 +25,7 @@
  *  - Greg Kroah-Hartman - usb-skeleton driver
  *  - XBOX Linux project - extra USB id's
  *  - Pekka Pöyry (quantus) - Xbox One controller reverse engineering
- *  - Taylor Genn (Multimegamander) - extra USB id's
+ *  - Taylor Genn (Multimegamander) - extra controller id's
  *
  * TODO:
  *  - fine tune axes (especially trigger axes)
@@ -213,6 +213,16 @@ static const struct xpad_device {
 	{ 0x0e6f, 0x0164, "PDP Battlefield One", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0165, "PDP Titanfall 2", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0185, "Wired Fight Pad Pro - Mario", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Luigi", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Peach", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Jigglypuff", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Pichu", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Link", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Pikachu", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Special Edition Zelda", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Sonic", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Special Edition Link", 0, XTYPE_XBOXONE },
+	//{ 0x0e6f, 0x01xx, "Wired Fight Pad Pro - Yoshi", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0201, "Pelican PL-3601 'TSZ' Wired Xbox 360 Controller", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x0213, "Afterglow Gamepad for Xbox 360", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x021f, "Rock Candy Gamepad for Xbox 360", 0, XTYPE_XBOX360 },
