@@ -219,6 +219,7 @@ static const struct xpad_device {
 	{ 0x0e6f, 0x0246, "Rock Candy Gamepad for Xbox One 2015", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02ab, "PDP Controller for Xbox One", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a0, "PDP Wired Controller for Xbox One - Artic White", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a1, "PDP Wired Controller for Xbox One - Unknown Color", 0, XTYPE_XBOXONE }, //unsure if this controller exists
 	{ 0x0e6f, 0x02a2, "PDP Wired Controller for Xbox One - Unknown Color", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a3, "PDP Wired Controller for Xbox One - Unknown Color", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a4, "PDP Wired Controller for Xbox One - Stealth Series", 0, XTYPE_XBOXONE },
