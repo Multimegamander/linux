@@ -25,7 +25,7 @@
  *  - Greg Kroah-Hartman - usb-skeleton driver
  *  - XBOX Linux project - extra USB id's
  *  - Pekka Pöyry (quantus) - Xbox One controller reverse engineering
- *  - Taylor Genn (Multimegamander) - PDP USB id's
+ *  - Taylor Genn (Multimegamander) - extra USB id's
  *
  * TODO:
  *  - fine tune axes (especially trigger axes)
@@ -218,17 +218,21 @@ static const struct xpad_device {
 	{ 0x0e6f, 0x021f, "Rock Candy Gamepad for Xbox 360", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x0246, "Rock Candy Gamepad for Xbox One 2015", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02ab, "PDP Controller for Xbox One", 0, XTYPE_XBOXONE },
-	{ 0x0e6f, 0x02a0, "PDP Wired Controller for Xbox One - Blue", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a0, "PDP Wired Controller for Xbox One - Artic White", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a2, "PDP Wired Controller for Xbox One - Unknown Color", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a3, "PDP Wired Controller for Xbox One - Unknown Color", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a4, "PDP Wired Controller for Xbox One - Stealth Series", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a5, "PDP Wired Controller for Xbox One - Midnight Blue", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02a6, "PDP Wired Controller for Xbox One - Camo Series", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a7, "PDP Wired Controller for Xbox One - Raven Black", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a8, "PDP Wired Controller for Xbox One - Unknown Color", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02a9, "PDP Wired Controller for Xbox One - Unkown Color", 0, XTYPE_XBOXONE },
 	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Red", 0, XTYPE_XBOXONE },
 	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Orange", 0, XTYPE_XBOXONE },
 	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Green", 0, XTYPE_XBOXONE },
-	{ 0x0e6f, 0x02cb, "PDP Wired Controller for Xbox One - Specter Violet", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02b8, "PDP AFTERGLOW Wired XBOX ONE", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x02bd, "PDP Wired Controller for Xbox One - Royal Purple", 0, XTYPE_XBOXONE },
-	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - Black", 0, XTYPE_XBOXONE },
-	//{ 0x0e6f, 0x02xx, "PDP Wired Controller for Xbox One - White", 0, XTYPE_XBOXONE },
+	{ 0x0e6f, 0x02cb, "PDP Wired Controller for Xbox One - Specter Violet", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0301, "Logic3 Controller", 0, XTYPE_XBOX360 },
 	{ 0x0e6f, 0x0346, "Rock Candy Gamepad for Xbox One 2016", 0, XTYPE_XBOXONE },
 	{ 0x0e6f, 0x0401, "Logic3 Controller", 0, XTYPE_XBOX360 },
